@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>basic form</title>
+</head>
+<body bgcolor ="lightblue">
+    <form>
+      <h1 align = "center"><font color = "red"><u>FORM TITLE</u></font></h1>
+
+        <label>  NAME :</label>
+        <input type = "text" placeholder="enter your name ">
+        <br>
+        <br>
+        <label> AGE :</label>
+        <input type ="number" placeholder="enter your age">
+        <br>
+        <br>
+        <label>Gender :</label>
+        <input type ="radio" name="Gender">MALE
+        <input type ="radio" name ="Gender">FEMALE
+        <input type ="radio" name ="Gender">OTHER
+        <br>
+        <br>
+        <label>D.O.B :</label>
+        <input type ="date">
+        <br>
+        <br>
+      <h1 align = "center"><font color = "red"><u>Education details</u></font></h1> 
+      <label> Department : </label> 
+      <select>
+        <option selected hidden> select any one </option>
+        <option> Mech</option>
+        <option> EEE</option>
+        <option> ECE</option>
+      </select>
+      <br>
+      <br>
+        <label>software</label>
+        <input type ="checkbox">AutoCad
+        <input type ="checkbox">Solid works
+        <input type ="checkbox">Anasis
+        <br>
+        <br>
+        <label> CGPA</label>
+        <meter min="0" max="10" value="5"></meter>
+      <br>
+      <br>
+      <label>Address</label>
+      
+      <textarea></textarea>
+      <br>
+      <br>
+     <label>password</label>
+     <input type="password">
+     <br>
+      <br>
+      <label>resume</label>
+      <input type ="file"/>
+      <br>
+      <br>
+      <button type = "submit">submit</button>
+      <button type ="reset">Cancel</button>
+    </form>
+
+</body>
+</html>  

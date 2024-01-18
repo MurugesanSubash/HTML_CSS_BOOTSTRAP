@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FORM AND TABLE WITH CSS</title>
+    <link href="./INPUT.css" rel="stylesheet">
+<style>
+
+    span
+    {
+        color: chartreuse; font-style:italic; font-size: xx-large;
+    }
+    .table1
+    {
+        background-image: url(../HTML/pic.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        font-family: cursive;
+        color: white;
+        -webkit-filter: blur(1px);
+        filter: blur(1px);
+        
+    }
+   
+    td{
+        height: 50px;
+    }
+    input{
+        
+        height: 30px;
+    }
+    button
+    {
+        color: rgb(4, 51, 47);
+        background-color: wheat;
+        height: 30px;
+        box-shadow: 4px 0px 10px red;
+    }
+</style>
+</head>
+
+
+<body style="background-image: url(./backgroundpic.png); background-position: center; 
+background-repeat: no-repeat; background-size:cover; ">
+ <form align="center">
+    
+    <table align="center" border="1px"  cellpadding="1px" cellspacing="1px" class="table2" >
+        <h2  ><p><h3><u><span>KVB</span> KYC Form</u></h3></p></h2> 
+              <tr>
+                  <td><label>First Name</label></td>
+                  <td><input type="text" placeholder="enter name">(Max 50 Characters Allowed)</td>
+              </tr>
+  
+              <tr>
+                  <td><label>Last Name</label></td>
+                  <td><input type="text" placeholder="enter name">(Max 50 Characters Allowed)</td>
+              </tr>
+
+              <tr>
+       
+                <td><label >Date of Birth(DOB)</label></td>
+                <td>
+                    <select>
+                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option>
+                        <option>7</option><option>8</option><option>9</option>10<option>11</option><option>12</option><option>13</option>
+                        <option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option>
+                        <option>18</option><option>19</option><option>20</option>21<option>22</option><option>23</option><option>24</option>
+                        <option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option>
+                        <option>31</option>
+                    </select>
+                    <select>
+                        <option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option>
+                        <option>07</option><option>08</option><option>09</option>10<option>11</option><option>12</option>
+                    </select>
+                    <select>
+                        <option>2020</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option>
+                    </select>
+                </td>
+              </tr>
+
+              <tr>
+                  <td><label>Gender</label></td>
+                  <td><input type="radio" name="Gender">Male <input type ="radio" name="Gender">Female</td>
+              </tr>
+  
+              <tr>  
+                  <td><label>Addhar number</label></td>
+                  <td><input type="number" placeholder="12 digit number"></td>
+              </tr>
+  
+              <tr>
+                <td><label>Pan card</label></td>
+                <td><input type="number" placeholder=""></td>
+            </tr>
+
+            <tr>
+                <td><lable>Card Details</lable></td>
+                <td> <input type="checkbox">ATM Card <input type="checkbox">Debit Card <input TYPE ="checkbox"> Checkbook</td>
+            </tr>
+  
+              <tr>
+                  <td><label>Address</label></td>
+                  <td><textarea id="backgroundadd"></textarea></td>
+              </tr>
+  
+              <tr>
+                  <td><label>City</label></td>
+                  <td><select>
+                      <option seleted hidden>Select your City</option>
+                      <option>Salem</option>
+                      <option>Erode</option>
+                      <option>Kovai</option>
+                      <option>Karu</option>
+                  </select></td>
+              </tr>
+  
+              <tr>
+                  <td><lable>Pincode</lable></td>
+                  <td><input type="number" placeholder="Ex:636113"></td>
+              </tr>
+              <tr>
+                <td><label>State</label></td>
+                <td><select>
+                  <option seleted hidden>Select your State</option>
+                    <option>Tamil nadu </option>
+                    <option>Kerela</option>
+                    <option>Andhra</option>
+                    <option>Delhi</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td><label>Country</label></td>
+                <td><select>
+                  <option seleted hidden>Select your country</option>
+                    <option>India</option>
+                    <option>Newzland</option>
+                    <option>Ireland</option>
+                    <option>U.A</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td><label>Mobile Number</label></td>
+                <td><input type="tel" placeholder="enter your number"></td>
+            </tr>
+
+            <tr>
+                <td><lable> Email ID</lable></td>
+                <td><input type="email"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                    <td >
+                        <button type="submit">SUBMIT</button>
+                        <button type="reset">RESET</button>
+                    </td>
+            </tr>
+        </table>
+ </form>
+
+ <br>
+ <br>
+
+<table border="1" class="table1" align="center" >
+    <thead>
+        <tr id="heading">
+                 <th>SI.No</th>
+                 <th>Customer Name</th>
+                 <th>Addhar Number</th>
+                 <th>Pan card Number</th>
+                 <th>Account Type</th>
+                 <th>Branch</th>
+        </tr>          
+    </thead>
+    <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Maha</td>
+                    <td>123456789012</td>
+                    <td>1234566</td>
+                    <td>Current</td>
+                    <td>Salem</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Suresh</td>
+                    <td>123456789012</td>
+                    <td>1234566</td>
+                    <td>Current</td>
+                    <td>Salem</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Jai</td>
+                    <td>123456789012</td>
+                    <td>1234566</td>
+                    <td>Current</td>
+                    <td>Salem</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Kumar</td>
+                    <td>123456789012</td>
+                    <td>1234566</td>
+                    <td>Current</td>
+                    <td>Salem</td>
+                </tr>
+    </tbody>
+</table>
+
+<br>
+<br>
+
+<table align="center" id="videotable" border="1px">
+    <tr>
+        <td rowspan="2"><iframe width="560" height="316" 
+            src="https://www.youtube.com/embed/tvS5t30JeeU?si=dXwjc1NbRnokedBG" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen></iframe></td>
+        <td><img src="./Standard-KYC-Checklist.jpg" width="280px" height="158px"></td>
+    </tr>
+
+    <tr>
+        <td><img src="./kyc-end-to-end-process.jpeg" width="280" height="158"></td>
+    </tr>
+</table>
+
+</body>
+</html>

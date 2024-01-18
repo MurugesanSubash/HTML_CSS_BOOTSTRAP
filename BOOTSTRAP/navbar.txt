@@ -1,0 +1,17 @@
+navbar
+------
+navbar   ,  navbar-brand, navbar-expand-lg 
+
+navbar-toggle, data-bs-toggle=collapse, data-bs-target=id ,
+
+navbar-toggle-icon
+
+collapse, navbar-collapse ,id=#
+
+navbar-nav
+ 
+
+
+nav-item
+
+nav-link

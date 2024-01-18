@@ -1,0 +1,42 @@
+input
+{
+    background-color: aqua;
+}
+table
+{
+ border-collapse: collapse ; width: 1000px; height: 50px;  border-color: black;
+}
+.table1
+{
+    text-align: center; border-color: darkred;
+    width: 1000px;height: 500px; border-collapse: collapse;
+    font-size: x-large;
+}
+
+#heading    
+{
+ color: rgb(221, 221, 234); font-size: x-large;height:100px;
+
+}
+
+#videotable
+{
+    
+    background-color: chartreuse;
+
+}
+
+*label
+{
+background-color: cadetblue;
+}
+
+#backgroundadd
+{
+    background-color: aliceblue;
+}
+
+button
+{
+    
+}

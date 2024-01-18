@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new project</title>
+    <style>
+      .mybox
+      {
+        background-color: chartreuse;
+        height: 800px;
+        display: flex;
+        justify-content:space-evenly;
+        /* space-around, space-between */
+        align-items:center;
+        
+      }
+
+      .box:hover
+        {
+            transform: translatey(-50px);
+            transition-duration: 2s;
+            transition-delay: 0.5s;
+        }
+
+      .box
+       {
+            background-color: crimson;
+            height: 200px;
+            width: 400px;
+            border: 2px solid white;
+        }
+/* when the cursor moves to the point we choose it occurs a change which are given in the hover */
+        .box1:hover
+        {
+            cursor: pointer;
+            background-color: black;
+            box-shadow: 1px 1px 45px;
+        }
+/* active comment makes the change when the  cursor click in the working area */
+        input:active
+        {
+            padding: 10px;
+            background-color: aqua;
+            color: brown;
+        }
+
+        .box2:hover
+        {
+            background-image: url(../pic.jpg);
+            background-position: center;
+            background-size:100%; 
+            background-repeat: no-repeat;
+            transform: translatex(50px);
+            transition-duration: 2s;
+            transition-delay: 0.5s;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="mybox">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+
+    <input type="text" style="height: 50px; width: 250px; font-size: x-large;">
+</body>
+</html>

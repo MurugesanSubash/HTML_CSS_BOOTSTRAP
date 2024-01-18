@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body class="container " >
+    <div class="row justify-content-center">
+       <form class=" form-group col-12 text-center text-dark">
+
+        <img src="../BOOTSTRAP/bootstrap.png" style="height: 60px; width: 60px;">
+
+                <h2>Checkout form</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Repudiandae quaerat sapiente aliquid odit ipsa. Sapiente in dolorem
+               corporis eligendi nihil? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Repudiandae quaerat sapiente aliquid odit ipsa. Sapiente in dolorem
+               corporis eligendi nihil?
+            </p>
+            <br><br>
+            <h5 class="float-start ms-2">Billing Address</h5>
+            <br>
+            <br>
+
+            <div class="row">
+
+                <div class="col-7">
+
+                            <div class=" row justify-content-center">
+                                
+                                <div class="row mt-2">
+                                    <div class="col-6">
+                                        <label class="form-label float-start ">Firstname</label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="form-label float-start">Lastname</label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+            
+                                <div class="row">
+                                    <div class="col-12">
+                                         <label class="form-label float-start">Username</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text">@</span>
+                                                <input class="form-control" type="text" placeholder="Username">
+                                            </div>
+                                    </div>
+                                </div>
+            
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label float-start">Email</label>
+                                        <input class="form-control" type="text" placeholder="you@example.com">
+                                    </div>
+                                </div>
+            
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label float-start">Address</label>
+                                        <input class="form-control" type="text" placeholder="1234 Main st">
+                                    </div>
+                                </div>
+            
+                                <div class="row">
+                                    <div class="col-4">
+                                        <label class="form-label float-start">Country</label>
+                                        <select class="form-select">
+                                            <option>choose....</option>
+                                            <option>India</option>
+                                            <option>Pakistan</option>
+                                            <option>Iran</option>
+                                        </select>
+                                    </div>
+            
+                                    <div class="col-4">
+                                        <label class="form-label float-start">State</label>
+                                        <select class="form-select">
+                                            <option>choose....</option>
+                                            <option>Tamil nadu</option>
+                                            <option>Kerela</option>
+                                            <option>UP</option>
+                                        </select>
+                                    </div>
+            
+                                    <div class="col-4">
+                                        <label class="form-label float-start">Zip</label>
+                                        <input class="form-control" type="number">
+                                    </div>
+                                </div>
+            
+                                <br><br><br><br><br><hr>                                 
+            
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label float-start">
+                                            <input type="checkbox" class=" form-check-input ">Shipping address is the same as my billing address
+                                        </label>
+                                    </div>
+                                </div>
+            
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="form-label float-start">
+                                            <input type="checkbox" class=" form-check-input ">Save this information for next time
+                                        </label>
+                                    </div>
+                                </div>
+            
+                                <br><br><hr>
+            
+            
+                                <div class="row">
+                                        <div class="text-start">
+                                        <h5>Payment</h5> 
+            
+                                        </div>
+            
+                                        <div>
+                                            <label class="form-label float-start">
+                                                <input type="radio" class="form-check-input" name="payment">credit card
+                                            </label>
+                                        </div>
+            
+                                        <div>
+                                            <label class="form-label float-start">
+                                                <input type="radio" class="form-check-input" name="payment">Debit card
+                                            </label>
+                                        </div>
+                                        
+                                        <div>
+                                            <label class="form-label float-start">
+                                                <input type="radio" class="form-check-input" name="payment">Paypal
+                                            </label>
+                                        </div>
+                                </div>
+            
+                                <div class="row mt-2">
+                                    <div class="col-6">
+                                        <label class="form-label float-start ">Name on Card</label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="form-label float-start">Credit card Number</label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                
+                                <div class="row mt-2">
+                                    <div class="col-3">
+                                        <label class="form-label float-start ">Expiration</label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                    <div class="col-3">
+                                        <label class="form-label float-start">CVV</label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+            
+                                <br><br><br><br><br><hr>
+            
+                                <div class="row">
+                                        <button class="btn bg-primary text-light col-12">Continue to checkout</button>
+                                </div>
+            
+                            </div>
+
+    
+                </div>
+
+                
+                <div class="col-4 ms-5">
+
+                        <div class="row">
+                            
+                                <button class="btn position-relative fw-bold btn-outline-light bg-light text-secondary fs-4 text-start" style="height: 80px;">
+                                    Your card
+                                    <span class=" badge rounded-pill position-absolute start-100 top-70 end-40 text-dark bg-secondary translate-middle">3</span>
+                                </button>
+                                
+                        </div>
+                            
+                        <div class="row">
+                            
+                            <button class="btn position-relative btn-outline-dark bg-light text-dark fs-5 text-start"  style="height: 80px;">
+                                Product name
+                                   </button>
+                            
+                        </div>
+
+                        <div class="row">
+                            
+                            <button class="btn btn-outline-dark bg-light text-dark fs-5 text-start" style="height: 80px;">Second product</button>
+
+                        </div>
+
+                        <div class="row">
+                            
+                            <button class="btn btn-outline-dark bg-light text-success fs-5 text-start" style="height: 80px;">Third Item</button>
+
+                        </div>
+
+                        <div class="row">
+                            
+                            <button class="btn btn-outline-dark bg-light text-dark fs-5 text-start" style="height: 80px;">Total(USD)</button>
+
+                        </div>
+
+                        <br><br>
+
+                        <div class="row">
+                            
+                            <button class="btn btn-outline-dark bg-light text-dark fs-5 text-start" style="height: 80px;">
+                            
+                                            <div class="input-group">
+                                                <input class="form-control" type="text" placeholder="Promo code">
+                                                <span class="input-group-text">Redeem</span>
+                                            </div>
+                            
+                            </button>
+
+                        </div> 
+                        
+                        <div class=" row mt-5">
+
+                            <p class="border p-5 text-start  ">
+                                <span class="row">
+                                    kjhsb
+                                    
+                                </span>
+                                <span class="row">
+                                    adkjhdi
+                                    
+                                </span>
+                                
+                            </p>
+                            
+                        </div>
+
+
+                </div>
+                   
+
+                <div class=" mt-5">
+                    <div class="text-center">
+                        @2017-2019 company Name
+                    </div>
+                    <div class="text-center text-primary">
+                        Privacy Terms Support
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- <table class="table table-striped table-bordered table-light">
+                            <tr>
+                                <td>Product name</td>
+                            </tr>
+                            <tr>
+                                <td>Second product</td>
+                            </tr>
+                            <tr>
+                                <td>Third item</td>
+                            </tr>
+                            <tr>
+                                <td>Promo code</td>
+                            </tr>
+                        </table> -->
