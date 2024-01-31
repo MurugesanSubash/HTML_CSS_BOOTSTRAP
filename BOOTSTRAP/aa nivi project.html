@@ -10,6 +10,8 @@
 
 
 <style>
+
+
     
     .nivi
 
@@ -130,19 +132,27 @@
     }
     .card2:hover
     {
-        width:500px;
+        
         box-shadow:  0 0 30px black;
-        transform: translatex(-15px);
+        transform: translateY(-15px);
         transition-duration: 2s;
         transition-delay: 0.2s;
     }
     .card3:hover
     {
-        width:500px;
+        
         box-shadow: 0 0 30px black;
-        transform: translateY(+15px);
+        transform: translateY(-15px);
         transition-duration: 2s;
-        transition-delay: 0ms   ;
+        transition-delay: 0.2s   ;
+    }
+    .card4:hover
+    {
+        
+        box-shadow: 0 0 30px black;
+        transform: translateY(-15px);
+        transition-duration: 2s;
+        transition-delay: 0.2s   ;
     }
     .jallikattu
     {
@@ -259,40 +269,51 @@
 {
     width: 280px;
 }
+.dot
+{
+    height: 30px;
+}
+
 
 </style>
 </head>
 
-<body class="container col-lg-12 col-md-8 col-sm-5" >
-    
-    
-        <div class=" row justify-content-evenly ">
-        <div class="   col-2 mt-4 ms-6" >
-            <a href="" class="text-dark nav-link"><h3>Yummy<font color="red">.</font></h3></a>
-        </div>
-            <div class=" row col-8 mt-4 justify-content-evenly container align-items-center ">
-                <a href="" class=" nav-link p-1 col link-secondary ">Home</a>
-                <a href="" class=" nav-link p-1 col link-secondary">About</a>
-                <a href="" class=" nav-link p-1 col link-secondary">Menu</a>
-                <a href="" class=" nav-link p-1 col link-secondary">Events</a>
-                <a href="" class=" nav-link p-1 col link-secondary">Chefs</a>
-                <a href="" class=" nav-link p-1 col link-secondary">Gallery</a>
-                <a href="" class=" nav-link p-1 col link-secondary">DropDown
-                    <input type="checkbox">
-                </a>
-                <a href="" class=" nav-link p-1 col link-secondary">Contact</a>
-               
-                
+<body class="container"> 
+    <div class="row justify-content-center bg-light col-lg-12 col-md-8 col-sm-5">
+
+        <nav class="navbar navbar-expand-lg colo navbar-light bg-light">
+
+            <div class="col-2 bg-light">  
+
+                 <a href="" class="text-dark nav-link"><h3 class="ms-5">Yummy<font color="red">.</font></h3></a>
             </div>
-            <div class="col-2 mt-4">
-                <button class="  btn btn-outline-danger  justify-content-end bg-danger rounded-pill  text-light">
-                    Book a Table
+
+
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mydata1" type="button" >
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 
+            <div class="col-8  navbar-collapse" id="mydata1">
+
+                <ul class="navbar-nav justify-content-center">
+                    <li class="ms-4 nav-item"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="ms-4 nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="ms-4 nav-item"><a href="#" class="nav-link">Menu</a></li>
+                    <li class="ms-4 nav-item"><a href="#" class="nav-link">Events</a></li>
+                    <li class="ms-4 nav-item"><a href="#" class="nav-link">Chefs</a></li>
+                    <li class="ms-4 nav-item"><a href="#" class="nav-link">Gallery</a></li>
+                    <li class="ms-4 nav-item"><a href="#" class="nav-link">Drop Down</a></li>
+                    <li class="ms-4 nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+
             </div>
-        </div>
-    </header>
-    
+
+            <div class="col-2">
+                <button class="btn bg-danger rounded-pill mb-6"><a href="#" class="nav-link dot text-light">Book a Table</a></button>
+            </div>
+
+        </nav>
+    </div> 
     <div class="row justify-content-center mt-4 ms-1 alert alert-secondary mb-6 second">
         <div class="row col-6 justify-content-center text-dark  design"><h1 class="mt-5 fw-bold align-items-center">Enjoy  Your</h1> <br><h1 class="fw-bolder">Healthy</h1> 
         <br> <h1 class="fw-bolder">Delicious Food</h1>
@@ -430,7 +451,7 @@
 
 
 <div class="row col-12 justify-content-between">
-    <div class=" row mt-4 text-center ">
+    <div class=" row mt-4 text-center justify-content-between align-items-center">
         <a href="" class=" col-3 link-secondary"><font color="red">Starters</font></a>
         <a href="" class=" col-3 link-secondary">Breakfast</a>
         <a href="" class=" col-3 link-secondary">Lunch</a>
@@ -440,37 +461,37 @@
 <br>
 <div class="text-danger fs-1 fw-bold row justify-content-center mt-3 menu">Starters</div>
 
-<div class=" col-4 justify-content-evenly  mt-4"><img src="../Bootstarp/pic1.jpg" class="firstimg"></div>
-<div class=" col-4 justify-content-evenly  mt-4"><img src="../Bootstarp/picgood.png" class="firstimg"></div>    
-<div class=" col-4 justify-content-evenly  mt-4"><img src="../Bootstarp/pic3.png" class="firstimg"></div>
-<div class="col-4 justify-content-center ms-6 mt-4">
+<div class=" col-4 justify-content-between text-center mt-4"><img src="../Bootstarp/pic1.jpg" class="firstimg"></div>
+<div class=" col-4 justify-content-between text-center mt-4"><img src="../Bootstarp/picgood.png" class="firstimg"></div>    
+<div class=" col-4 justify-content-between text-center mt-4"><img src="../Bootstarp/pic3.png" class="firstimg"></div>
+<div class="col-4 justify-content-between text-center ms-6 mt-4">
     <h2>Magnam Tiste</h2>
 
-<p class="fs-4 mt-3">Lorem ipsum dolor sit amet conse</p>
-<font color="red"><h1>$5.97</h1></font></div>
-<div class="col-4 justify-content-center ms-6 mt-4">
+<p class="fs-4 mt-5">Lorem ipsum dolor sit amet conse</p>
+<p class="align-items-center justify-content-between mt-5 "><font color="red"><h1>$5.97</h1></font></p></div>
+<div class="col-4 justify-content-between text-center ms-6 mt-4">
+    <h2>Magnam Tiste</h2>
+<br><p class="fs-4 mt-3">Lorem ipsum dolor sit amet conse</p>
+<p class="align-items-center justify-content-between mt-5 "><font color="red"><h1>$5.97</h1></font></p></div>
+<div class="col-4 justify-content-between text-center mt-4">
+    <h2>Magnam Tiste</h2>
+<br><p class="fs-4 mt-3">Lorem ipsum dolor sit amet conse</p>
+<p class="align-items-center justify-content-between mt-5  "><font color="red"><h1>$5.97</h1></font></p></div>
+<div class="  col-4 justify-content-between text-center mt-4"><img src="../Bootstarp/pasta8.....png" class="secondimg"></div>
+<div class=" col-4 justify-content-between text-center mt-5"><img src="../Bootstarp/china3......png" class="mudila"></div>
+<div class=" col-4 justify-content-between  text-center mt-5"><img src="../Bootstarp/food4.png" class="secondimg"></div>
+<div class="col-4 justify-content-between  text-center ms-6 mt-4">
     <h2>Magnam Tiste</h2>
 <br><p class="fs-4">Lorem ipsum dolor sit amet conse</p>
-<p class="align-items-center justify-content-center mt-3  "><font color="red"><h1>$5.97</h1></font></p></div>
-<div class="col-4 justify-content-center ms-6 mt-4">
+<p class="align-items-center justify-content-between mt-5  "><font color="red"><h1>$5.97</h1></font></p></div>
+<div class="col-4 justify-content-between text-center ms-6 mt-4">
     <h2>Magnam Tiste</h2>
 <br><p class="fs-4">Lorem ipsum dolor sit amet conse</p>
-<p class="align-items-center justify-content-center mt-3  "><font color="red"><h1>$5.97</h1></font></p></div>
-<div class="  col-4 justify-content-evenly  mt-4"><img src="../Bootstarp/pasta8.....png" class="secondimg"></div>
-<div class=" col-4 justify-content-evenly  mt-5"><img src="../Bootstarp/china3......png" class="mudila"></div>
-<div class=" col-4 justify-content-evenly  mt-4"><img src="../Bootstarp/food4.png" class="secondimg"></div>
-<div class="col-4 justify-content-center ms-6 mt-4">
+<p class="align-items-center justify-content-between mt-5 "><font color="red"><h1>$5.97</h1></font></p></div>
+<div class="col-4 justify-content-between text-center ms-6 mt-4">
     <h2>Magnam Tiste</h2>
 <br><p class="fs-4">Lorem ipsum dolor sit amet conse</p>
-<p class="align-items-center justify-content-center mt-3  "><font color="red"><h1>$5.97</h1></font></p></div>
-<div class="col-4 justify-content-center ms-6 mt-4">
-    <h2>Magnam Tiste</h2>
-<br><p class="fs-4">Lorem ipsum dolor sit amet conse</p>
-<p class="align-items-center justify-content-center mt-3  "><font color="red"><h1>$5.97</h1></font></p></div>
-<div class="col-4 justify-content-center ms-6 mt-4">
-    <h2>Magnam Tiste</h2>
-<br><p class="fs-4">Lorem ipsum dolor sit amet conse</p>
-<p class="align-items-end justify-content-end mt-3"><font color="red"><h1>$5.97</h1></font></p></div>
+<p class="align-items-end justify-content-between mt-5"><font color="red"><h1>$5.97</h1></font></p></div>
 
 </div>
     </div>
@@ -596,7 +617,7 @@
         <img src="../Bootstarp/china3......png" class="guest mt-4"/>
         <div class="card-body">
         <p class="text-light  mt-3 text-start fw-bold">Custom Parties</p>
-        <p class="text-light  text-start mt-1 fs-4"><u class="text-danger">$778</u></p>
+        <p class="text-light  text-start mt-1 fs-4"><u class="text-light" style="text-decoration: underline red;">$778</u></p>
        <p  class="text-light mt-1 text-start  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
         Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit </p> 
 </div>
@@ -606,7 +627,7 @@
     <img src="../Bootstarp/china2......png" class="guest1 mt-2"/>
     <div class="card-body">
         <p class="text-light text-start mt-3 fw-bold">Custom Parties</p>
-        <p class="text-light text-start mt-1 fs-4"><u>$778</u></p>
+        <p class="text-light text-start mt-1 fs-4"><u style="text-decoration: underline red;">$778</u></p>
         <p  class="text-light mt-1 text-start  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
            Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit </p> 
 </div>
@@ -616,7 +637,7 @@
     <img src="../Bootstarp/china1......png" class="guest2 mt-2"/>
     <div class="card-body">
         <p class="text-light text-start mt-3 fw-bold">Custom Parties</p>
-        <p class="text-light text-start mt-1 fs-4 "><u>$778</u></p>
+        <p class="text-light text-start mt-1 fs-4 "><u style="text-decoration: underline red;">$778</u></p>
        <p  class="text-light  mt-1 text-start ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
         Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit </p> 
 </div>
@@ -661,7 +682,7 @@
                      <img src="../Bootstarp/china4.......png" class="guest mt-3"/>
                         <div class="card-body">
                             <p class="text-light  mt-3 text-start fw-bold">Custom Parties</p>
-                            <p class="text-light  text-start mt-1 fs-4"><u class="text-danger">$778</u></p>
+                            <p class="text-light  text-start mt-1 fs-4"><u class="text-light" style="text-decoration: underline red;">$778</u></p>
                             <p  class="text-light mt-1 text-start  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit accusamus sapiente .</p> 
                         </div>
@@ -673,7 +694,7 @@
                     
                     <div class="card-body">
                         <p class="text-light text-start mt-3 fw-bold">Custom Parties</p>
-                        <p class="text-light text-start mt-1 fs-4"><u>$778</u></p>
+                        <p class="text-light text-start mt-1 fs-4"><u style="text-decoration: underline red;">$778</u></p>
                         <p  class="text-light mt-1 text-start  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit accusamus sapiente </p> 
                     </div>
@@ -683,7 +704,7 @@
                     <img src="../Bootstarp/pasta1.jpeg" class="pasta3 mt-2"/>
                     <div class="card-body">
                         <p class="text-light text-start mt-3 fw-bold">Custom Parties</p>
-                        <p class="text-light text-start mt-1 fs-4 "><u>$778</u></p>
+                        <p class="text-light text-start mt-1 fs-4 "><u style="text-decoration: underline red;">$778</u></p>
                         <p  class="text-light  mt-1 text-start ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit accusamus sapiente </p> 
                     </div>
@@ -701,7 +722,7 @@
                      <img src="../Bootstarp/pasta2.jpg" class="pasta mt-5"/>
                         <div class="card-body">
                             <p class="text-light  mt-3 text-start fw-bold">Custom Parties</p>
-                            <p class="text-light  text-start mt-1 fs-4"><u class="text-danger">$778</u></p>
+                            <p class="text-light  text-start mt-1 fs-4"><u class="text-light"style="text-decoration: underline red;">$778</u></p>
                             <p  class="text-light mt-1 text-start  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit </p> 
                         </div>
@@ -713,7 +734,7 @@
                     
                     <div class="card-body">
                         <p class="text-light text-start mt-3 fw-bold">Custom Parties</p>
-                        <p class="text-light text-start mt-1 fs-4"><u>$778</u></p>
+                        <p class="text-light text-start mt-1 fs-4"><u class="text-light"style="text-decoration: underline red;">$778</u></p>
                         <p  class="text-light mt-1 text-start  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit  </p> 
                     </div>
@@ -723,7 +744,7 @@
                     <img src="../Bootstarp/pasta4.jpg" class="guest2 mt-2"/>
                     <div class="card-body">
                         <p class="text-light text-start mt-3 fw-bold">Custom Parties</p>
-                        <p class="text-light text-start mt-1 fs-4 "><u>$778</u></p>
+                        <p class="text-light text-start mt-1 fs-4 "><u class="text-light"style="text-decoration: underline red;">$778</u></p>
                         <p  class="text-light  mt-1 text-start ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit  </p> 
                     </div>
@@ -740,7 +761,7 @@
                      <img src="../Bootstarp/pasta5.jpg" class="pasta1 mt-4"/>
                         <div class="card-body">
                             <p class="text-light  mt-3 text-start fw-bold">Custom Parties</p>
-                            <p class="text-light  text-start mt-1 fs-4"><u class="text-danger">$778</u></p>
+                            <p class="text-light  text-start mt-1 fs-4"><u class="text-light"style="text-decoration: underline red;">$778</u></p>
                             <p  class="text-light mt-1 text-start  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit </p> 
                         </div>
@@ -752,7 +773,7 @@
                     
                     <div class="card-body">
                         <p class="text-light text-start mt-3 fw-bold">Custom Parties</p>
-                        <p class="text-light text-start mt-1 fs-4"><u>$778</u></p>
+                        <p class="text-light text-start mt-1 fs-4"><u class="text-light"style="text-decoration: underline red;">$778</u></p>
                         <p  class="text-light mt-1 text-start  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit </p> 
                     </div>
@@ -762,7 +783,7 @@
                     <img src="../Bootstarp/pasta7.webp" class="guest2 mt-2"/>
                     <div class="card-body">
                         <p class="text-light text-start mt-3 fw-bold">Custom Parties</p>
-                        <p class="text-light text-start mt-1 fs-4 "><u>$778</u></p>
+                        <p class="text-light text-start mt-1 fs-4 "><u class="text-light"style="text-decoration: underline red;">$778</u></p>
                         <p  class="text-light  mt-1 text-start ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, cumque? 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur impedit  </p> 
                     </div>
@@ -783,18 +804,18 @@
         <div class="col-8 container alert alert-secondary">
             <div class="container">
                  <div class="row mt-5">
-    <div class="col-4"><input type="text" placeholder="Your name"></div>
-    <div class="col-4"><input type="email" placeholder="Your Email"></div>
-    <div class="col-4"><input type="tel" placeholder="Your Phone "></div>
+    <div class="col-4"><input class="form-control" type="text" placeholder="Your name"></div>
+    <div class="col-4"><input class="form-control" type="email" placeholder="Your Email"></div>
+    <div class="col-4"><input class="form-control" type="tel" placeholder="Your Phone "></div>
                 </div>
                 <div class="row mt-5">
-                    <div class="col-4"><input type="number" placeholder="Date"></div>
-                    <div class="col-4"><input type="number" placeholder="Time"></div>
-                    <div class="col-4"><input type="text" placeholder="# of people "></div>
+                    <div class="col-4"><input class="form-control" type="number" placeholder="Date"></div>
+                    <div class="col-4"><input class="form-control" type="number" placeholder="Time"></div>
+                    <div class="col-4"><input class="form-control" type="text" placeholder="# of people "></div>
                                 </div>
                                 <div class="row mt-5">
                                     <div class="col-12">
-                                    <textarea placeholder="Message" style="height: 100px; width: 740px;"></textarea></div>
+                                    <textarea class="form-control" placeholder="Message" style="height: 100px; width: 795px;"></textarea></div>
                                 </div>
 
                                 <div class=" mt-2 text-center">
@@ -822,7 +843,7 @@
 </div>
 
 
-<div class="row mt-5">
+<div class="row mt-5 ms-1">
     <div class="col-6">
         <button class=" row col-12 text-start p-3">
             <div class="col-1">
@@ -849,7 +870,7 @@
     </div>
 </div>
 
-<div class="row mt-5">
+<div class="row mt-5 ms-1">
     <div class="col-6">
         <button class=" row col-12 text-start p-3">
             <div class="col-1">
@@ -897,15 +918,15 @@
     </div>
 </div>
 
-<div class="row mt-4">
-    <textarea class="col-12 ms-3 " style="height: 150px; width: 1290px;" placeholder="Message"></textarea>
-</div>
+
+    <textarea  class="col- mt-4 form-control " style="height: 150px; width: 1295px;" placeholder="Message"></textarea>
+
 
 <div class="text-center">
     <button class="btn rounded-pill bg-danger text-light mt-3 col-2">Send Message</button>
 </div>
 <br><br><br>
-</div>
+
 
 <!--  -->
 

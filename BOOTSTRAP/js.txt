@@ -1,0 +1,4 @@
+design - input.value - checking  the input - null using if boolean (true/False) - load the input if true -  the store  input using ( local storage - get item, set item,remove item)
+
+ - change the object into - text by - JSON.parse 
+ 

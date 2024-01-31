@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innerhtml</title>
+</head>
+<body>
+    
+    <p>
+        <h1 >function</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium distinctio ad alias 
+       perferendis nesciunt quos suscipit at quas cumque hic,
+       magnam saepe quaerat, blanditiis, cum neque quam ipsum repudiandae quae
+       .<span id="date">current date</span></p>
+       <script>
+
+              document.getElementById('date').innerHTML=Date();
+              let headline="something link this function";
+
+              function race()
+              {
+                document.getElementsByTagName('h1')[0].innerHTML=headline;
+
+
+                let second = document.getElementsByTagName('h1')[0];
+                second.style.backgroundColor='red';
+
+              }
+
+              
+       </script>
+
+       <button onclick="race()">Click here</button>
+
+</body>
+</html>
